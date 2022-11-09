@@ -1,11 +1,16 @@
+body{
+    background-color: #F1FAEE;
+}
+
+
 h1{
-    color: #3671ad;
+    color: #457B9D;
     font-size: 90px;
     text-align: left;
 }
 
 p{
-    color: rgb(149, 165, 201);
+    color: #457B9D;
     font-size: 10x;
 }
 body{
@@ -47,4 +52,14 @@ body{
 img{
     width: 30px;
     height: 30px;
+}
+.encadrement{
+    color:#457B9D;
+    font-size: 30px;
+    width: fit-content;
+    border: 3px solid #E63946;
+    background-color: #F1FAEE;
+    padding: 20px;
+    text-align: center;
+    margin-top: 35px;
 }
