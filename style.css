@@ -1,3 +1,4 @@
+
 h1{
     color: #3671ad;
     font-size: 90px;
@@ -8,10 +9,26 @@ p{
     color: rgb(149, 165, 201);
     font-size: 10x;
 }
-body{
-    margin-left: 25px;
+
+img{
+    width: 30px;
+    height: 30px;
 }
 
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+}
+
+#body-div-1{
+    background-color: #F1FAEE;
+}
+
+#body-div-2{
+    background-color: #E63946;
+}
 
 #navbar-title 
 {
@@ -39,12 +56,11 @@ body{
 }
 
 #navbar{
+    margin-left: 25px;
     display: grid;
     grid-template-columns:1fr 1fr 1fr ;
-
 }
 
-img{
-    width: 30px;
-    height: 30px;
+#center{
+    margin-left: 25px;
 }
